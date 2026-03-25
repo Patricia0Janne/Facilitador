@@ -1,0 +1,25 @@
+.container { display: flex; gap: 10px; flex-wrap: wrap; }
+
+.pdfBtn {
+  padding: 10px 22px;
+  background: #e53935;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.pdfBtn:hover { background: #b71c1c; }
+
+.excelBtn {
+  padding: 10px 22px;
+  background: #388e3c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.excelBtn:hover { background: #1b5e20; }

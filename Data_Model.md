@@ -1,35 +1,43 @@
-# Modelo de Dados - Nota Fiscal
+## 🧾 Modelo de Dados – notaFiscal
 
-Objeto padrão que o sistema vai usar:
+O objeto `notaFiscal` é o núcleo do sistema.
 
 ```js
-notaFiscal = {
-  numero: "",
-  chaveAcesso: "",
-  dataEmissao: "",
+export const notaFiscal = {
+  info: {
+    numero: "",
+    serie: "",
+    dataEmissao: "",
+    chaveAcesso: "",
+  },
 
   emitente: {
     nome: "",
     cnpj: "",
+    endereco: "",
   },
 
   destinatario: {
     nome: "",
     cpfCnpj: "",
+    endereco: "",
   },
 
   itens: [
     {
+      codigo: "",
       descricao: "",
-      quantidade: 0,
-      valorUnitario: 0,
-      valorTotal: 0,
+      quantidade: "",
+      valorUnitario: "",
+      valorTotal: "",
     },
   ],
 
   totais: {
-    valorProdutos: 0,
-    valorNota: 0,
+    valorProdutos: "",
+    valorNota: "",
   },
 };
 ```
+
+---

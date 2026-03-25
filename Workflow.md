@@ -2,7 +2,7 @@
 
 ## Processamento de Nota
 
-1. Usuário envia XML, PDF ou digita chave
+1. Usuário envia XML, PDF
 2. Arquivo entra na fila
 3. Sistema processa uma nota por vez
 4. Dados são extraídos

@@ -1,0 +1,60 @@
+.empty { color: #999; font-size: 13px; text-align: center; padding: 20px 0; }
+
+.list { display: flex; flex-direction: column; gap: 8px; }
+
+.item {
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px 14px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.info { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+
+.name { font-size: 13px; font-weight: 600; color: #1a1a2e; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.badge {
+  font-size: 11px;
+  font-weight: 700;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.error { font-size: 11px; color: #e53935; margin-top: 4px; }
+
+.actions { display: flex; gap: 6px; margin-top: 8px; }
+
+.btnPreview {
+  padding: 5px 12px;
+  background: #3f51b5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.btnPreview:hover { background: #303f9f; }
+
+.btnRemove {
+  padding: 5px 12px;
+  background: transparent;
+  color: #f44336;
+  border: 1px solid #f44336;
+  border-radius: 6px;
+  font-size: 12px;
+}
+.btnRemove:hover { background: #fff5f5; }
+
+.btnClear {
+  width: 100%;
+  padding: 8px;
+  background: transparent;
+  color: #607d8b;
+  border: 1px dashed #607d8b;
+  border-radius: 8px;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.btnClear:hover { background: #eceff1; }

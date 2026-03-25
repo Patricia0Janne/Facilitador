@@ -1,0 +1,20 @@
+.empty { color: #999; font-size: 13px; font-style: italic; }
+
+.wrapper { overflow-x: auto; }
+
+.table { width: 100%; border-collapse: collapse; font-size: 13px; }
+
+.table th {
+  background: #e8eaf6;
+  color: #3f51b5;
+  font-weight: 700;
+  padding: 8px 12px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table td { padding: 8px 12px; border-bottom: 1px solid #f0f2f5; }
+
+.table tr:last-child td { border-bottom: none; }
+
+.table tr:hover td { background: #f5f7ff; }
